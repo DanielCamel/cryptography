@@ -1,2 +1,18 @@
-# cryptography
-Assignments on the course "Cryptographic information protection methods"
+# Генератор Геффе
+
+Простая реализация генератора Геффе - криптографического алгоритма на основе линейных регистров сдвига с обратной связью (LFSR).
+
+## Описание
+
+Генератор Геффе использует три LFSR (LFSR-1, LFSR-3 и управляющий LFSR-2) для создания псевдослучайной последовательности:
+- **R0**: полином x⁴ + x³ + 1
+- **R1**: полином x⁴ + x + 1  
+- **CTRL**: полином x⁴ + x³ + x² + x + 1
+
+![alt text](images/geffe.png)
+
+## Установка
+
+```bash
+git clone <repository-url>
+cd geffe-generator
