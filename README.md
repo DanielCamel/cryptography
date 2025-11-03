@@ -14,5 +14,5 @@
 ## Установка
 
 ```bash
-git clone <repository-url>
-cd geffe-generator
+git clone https://github.com/DanielCamel/cryptography.git
+cd generator
