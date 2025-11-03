@@ -15,4 +15,5 @@
 
 ```bash
 git clone https://github.com/DanielCamel/cryptography.git
-cd generator
+cd cryptography
+python geffe_generator.py
